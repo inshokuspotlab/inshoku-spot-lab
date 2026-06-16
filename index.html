@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+
+<!-- ============ SEO ============ -->
+<title>飲食スポットlab. | スポットワーカー受入診断｜飲食店の採用・受入体制を改善</title>
+<meta name="description" content="タイミー250回以上の現場経験と飲食店店長経験を持つ専門家が、飲食店の募集内容・受入体制・採用導線を診断。応募が集まらない、当日キャンセルが多いなどの課題を改善提案します。無料Zoom相談受付中。">
+<meta name="keywords" content="飲食店 採用,スポットワーカー,タイミー,求人票 改善,受入体制,飲食店 店長,採用導線,当日キャンセル">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#0b2545">
+<link rel="canonical" href="https://example.com/">
+
+<!-- ============ OGP ============ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="飲食スポットlab.">
+<meta property="og:title" content="飲食スポットlab. | スポットワーカー受入診断">
+<meta property="og:description" content="タイミー250回以上の現場経験を持つ専門家が、飲食店の募集内容・受入体制・採用導線を診断・改善提案します。無料Zoom相談受付中。">
+<meta property="og:url" content="https://example.com/">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="飲食スポットlab. | スポットワーカー受入診断">
+<meta name="twitter:description" content="タイミー250回以上の現場経験を持つ専門家が、飲食店の採用・受入体制を診断・改善提案します。">
+
+<!-- ============ Favicon (inline SVG) ============ -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b2545'/%3E%3Ctext x='16' y='22' font-size='18' font-family='sans-serif' font-weight='700' fill='%23fff' text-anchor='middle'%3EL%3C/text%3E%3C/svg%3E">
+
+<!-- ============ Structured Data ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "飲食スポットlab.",
+  "description": "タイミー250回以上の勤務経験と飲食店店長経験を持つ専門家が、飲食店の採用・受入体制・募集内容を診断し改善提案を行うサービス。",
+  "serviceType": "スポットワーカー受入診断",
+  "areaServed": "JP",
+  "url": "https://example.com/"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"タイミーの運用代行ですか？","acceptedAnswer":{"@type":"Answer","text":"いいえ。運用代行は行いません。募集内容・受入体制・採用導線を客観的に診断し、改善提案を行うサービスです。"}},
+    {"@type":"Question","name":"飲食店以外でも依頼できますか？","acceptedAnswer":{"@type":"Answer","text":"原則として飲食店向けのサービスです。まずは無料相談でご相談ください。"}},
+    {"@type":"Question","name":"オンライン対応は可能ですか？","acceptedAnswer":{"@type":"Answer","text":"はい。Zoomを利用し全国対応が可能です。"}}
+  ]
+}
+</script>
+
+<style>
+/* ============================================================
+   飲食スポットlab. ランディングページ
+   配色・テキストの主要な編集ポイントは :root と各 data 部分。
+   ============================================================ */
+:root{
+  /* ブランドカラー */
+  --navy:#0b2545;        /* 紺（メイン） */
+  --navy-2:#13315c;      /* 紺（やや明るい） */
+  --blue:#1d6fb8;        /* 青（アクセント） */
+  --blue-soft:#e8f1fa;   /* 淡い青（背景） */
+  --accent:#2f80ed;      /* CTA青 */
+  --accent-hover:#1f63c4;
+  --ink:#11243b;         /* 本文濃色 */
+  --text:#37475a;        /* 本文 */
+  --muted:#6b7a8d;       /* 補足 */
+  --line:#e3e9f0;        /* 罫線 */
+  --bg:#ffffff;
+  --bg-alt:#f6f9fc;
+  --white:#ffffff;
+  --radius:14px;
+  --shadow:0 10px 30px rgba(11,37,69,.08);
+  --shadow-lg:0 18px 50px rgba(11,37,69,.14);
+  --maxw:1080px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  font-family:"Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans","BIZ UDPGothic",Meiryo,sans-serif;
+  color:var(--text);
+  background:var(--bg);
+  line-height:1.85;
+  font-size:16px;
+  letter-spacing:.02em;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4,p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+
+.container{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 22px}
+
+/* ---------- セクション共通 ---------- */
+section{padding:84px 0}
+.section-head{text-align:center;max-width:720px;margin:0 auto 52px}
+.eyebrow{
+  display:inline-block;font-size:13px;font-weight:700;letter-spacing:.18em;
+  color:var(--blue);text-transform:uppercase;margin-bottom:14px;
+}
+.section-title{
+  font-size:clamp(24px,4.6vw,34px);font-weight:800;color:var(--ink);
+  line-height:1.4;letter-spacing:.01em;
+}
+.section-lead{margin-top:18px;font-size:15.5px;color:var(--muted)}
+
+/* ---------- ボタン ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  font-weight:700;font-size:16px;letter-spacing:.03em;
+  padding:17px 32px;border-radius:999px;border:none;cursor:pointer;
+  transition:transform .2s var(--ease),box-shadow .2s var(--ease),background .2s;
+  text-align:center;line-height:1.4;
+}
+.btn-primary{
+  background:linear-gradient(135deg,var(--accent),var(--blue));
+  color:#fff;box-shadow:0 10px 24px rgba(47,128,237,.32);
+}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 32px rgba(47,128,237,.42);background:linear-gradient(135deg,var(--accent-hover),#155a9e)}
+.btn-primary .arrow{transition:transform .2s var(--ease)}
+.btn-primary:hover .arrow{transform:translateX(4px)}
+.btn-ghost{
+  background:#fff;color:var(--navy);border:1.5px solid var(--line);
+}
+.btn-ghost:hover{border-color:var(--blue);color:var(--blue)}
+.btn-block{width:100%}
+
+/* ============ ヘッダー ============ */
+.site-header{
+  position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);
+  backdrop-filter:saturate(150%) blur(10px);
+  border-bottom:1px solid var(--line);transition:box-shadow .3s;
+}
+.site-header.scrolled{box-shadow:0 6px 20px rgba(11,37,69,.06)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--navy);font-size:18px;letter-spacing:.01em}
+.brand .logo-mark{
+  width:34px;height:34px;border-radius:9px;background:var(--navy);
+  display:grid;place-items:center;color:#fff;font-weight:800;font-size:17px;flex:none;
+}
+.header-cta{display:none}
+.header-cta .btn{padding:11px 22px;font-size:14px}
+@media(min-width:768px){.header-cta{display:block}}
+
+/* ============ ヒーロー ============ */
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(1200px 500px at 85% -10%,rgba(47,128,237,.14),transparent 60%),
+    radial-gradient(900px 500px at 0% 110%,rgba(19,49,92,.10),transparent 55%),
+    linear-gradient(180deg,#fbfdff,#ffffff);
+  padding:96px 0 88px;
+}
+.hero-grid{display:grid;gap:48px;align-items:center}
+@media(min-width:900px){.hero-grid{grid-template-columns:1.15fr .85fr}}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;
+  color:var(--blue);background:var(--blue-soft);padding:8px 16px;border-radius:999px;margin-bottom:24px;
+}
+.hero h1{
+  font-size:clamp(28px,6vw,46px);font-weight:900;color:var(--ink);
+  line-height:1.42;letter-spacing:.01em;
+}
+.hero h1 .hl{color:var(--blue);position:relative}
+.hero-sub{margin-top:24px;font-size:clamp(15px,2.4vw,18px);color:var(--text);max-width:560px}
+.hero-cta{margin-top:36px;display:flex;flex-wrap:wrap;gap:14px}
+.hero-note{margin-top:20px;font-size:13px;color:var(--muted);display:flex;align-items:center;gap:8px}
+.hero-note svg{flex:none}
+
+/* ヒーローのカード（数字で信頼感） */
+.hero-card{
+  background:var(--white);border:1px solid var(--line);border-radius:20px;
+  box-shadow:var(--shadow-lg);padding:30px 28px;
+}
+.hero-card .card-label{font-size:13px;font-weight:700;color:var(--blue);letter-spacing:.1em}
+.hero-stats{margin-top:22px;display:grid;gap:18px}
+.stat{display:flex;align-items:center;gap:16px;padding-bottom:18px;border-bottom:1px dashed var(--line)}
+.stat:last-child{border-bottom:none;padding-bottom:0}
+.stat .num{font-size:32px;font-weight:900;color:var(--navy);line-height:1;font-feature-settings:"tnum"}
+.stat .num small{font-size:15px;font-weight:700;margin-left:2px}
+.stat .desc{font-size:13.5px;color:var(--muted);line-height:1.5}
+
+/* ============ 信頼バー ============ */
+.trustbar{background:var(--navy);color:#fff;padding:28px 0}
+.trustbar .container{display:flex;flex-wrap:wrap;justify-content:center;gap:14px 36px;text-align:center}
+.trust-item{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:600;color:#dce6f4}
+.trust-item svg{color:#7eb6ec;flex:none}
+
+/* ============ 課題提起 ============ */
+.problems{background:var(--bg-alt)}
+.problem-grid{display:grid;gap:16px;grid-template-columns:1fr}
+@media(min-width:600px){.problem-grid{grid-template-columns:1fr 1fr}}
+@media(min-width:980px){.problem-grid{grid-template-columns:repeat(3,1fr)}}
+.problem-card{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px 24px;display:flex;gap:16px;align-items:flex-start;
+  transition:transform .25s var(--ease),box-shadow .25s var(--ease);
+}
+.problem-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.problem-card .ic{
+  width:46px;height:46px;border-radius:11px;background:var(--blue-soft);
+  display:grid;place-items:center;color:var(--blue);flex:none;
+}
+.problem-card h3{font-size:16px;font-weight:700;color:var(--ink);line-height:1.5}
+.problem-card p{margin-top:6px;font-size:13.5px;color:var(--muted)}
+.problem-bridge{
+  text-align:center;margin-top:44px;font-size:clamp(17px,3vw,21px);
+  font-weight:800;color:var(--navy);line-height:1.6;
+}
+.problem-bridge .hl{color:var(--blue)}
+
+/* ============ サービス紹介 ============ */
+.service-wrap{
+  background:linear-gradient(135deg,var(--navy),var(--navy-2));
+  border-radius:24px;color:#fff;padding:clamp(34px,5vw,56px);
+  box-shadow:var(--shadow-lg);
+}
+.service-wrap .eyebrow{color:#8fc0f0}
+.service-name{font-size:clamp(24px,4.5vw,32px);font-weight:900;letter-spacing:.01em;margin-bottom:10px}
+.service-desc{color:#cddcf0;font-size:15px;max-width:640px}
+.service-items{margin-top:38px;display:grid;gap:14px;grid-template-columns:1fr}
+@media(min-width:640px){.service-items{grid-template-columns:1fr 1fr}}
+.service-item{
+  display:flex;align-items:center;gap:14px;
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);
+  border-radius:12px;padding:18px 20px;
+}
+.service-item .num{
+  width:30px;height:30px;border-radius:8px;background:var(--accent);
+  display:grid;place-items:center;font-weight:800;font-size:14px;flex:none;
+}
+.service-item span{font-size:15px;font-weight:600;color:#eaf2fc}
+
+/* ============ 強み ============ */
+.strength-grid{display:grid;gap:22px;grid-template-columns:1fr}
+@media(min-width:860px){.strength-grid{grid-template-columns:repeat(3,1fr)}}
+.strength-card{
+  background:#fff;border:1px solid var(--line);border-radius:18px;
+  padding:36px 28px;text-align:center;position:relative;
+  transition:transform .25s var(--ease),box-shadow .25s var(--ease),border-color .25s;
+}
+.strength-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:#cfe0f2}
+.strength-card .badge{
+  position:absolute;top:-16px;left:50%;transform:translateX(-50%);
+  width:36px;height:36px;border-radius:50%;background:var(--navy);color:#fff;
+  display:grid;place-items:center;font-weight:800;font-size:15px;box-shadow:var(--shadow);
+}
+.strength-card .ic{
+  width:64px;height:64px;border-radius:16px;margin:12px auto 20px;
+  background:var(--blue-soft);display:grid;place-items:center;color:var(--blue);
+}
+.strength-card h3{font-size:19px;font-weight:800;color:var(--ink)}
+.strength-card .role{font-size:12.5px;font-weight:700;color:var(--blue);letter-spacing:.08em;margin-top:6px}
+.strength-card p{margin-top:14px;font-size:14px;color:var(--text)}
+
+/* ============ 流れ ============ */
+.flow{background:var(--bg-alt)}
+.flow-list{max-width:760px;margin:0 auto;position:relative}
+.flow-step{
+  display:flex;gap:22px;align-items:flex-start;padding-bottom:34px;position:relative;
+}
+.flow-step:last-child{padding-bottom:0}
+.flow-step::before{
+  content:"";position:absolute;left:23px;top:50px;bottom:-2px;width:2px;
+  background:linear-gradient(var(--blue),var(--line));
+}
+.flow-step:last-child::before{display:none}
+.flow-num{
+  width:48px;height:48px;border-radius:50%;flex:none;z-index:1;
+  background:#fff;border:2px solid var(--blue);color:var(--blue);
+  display:grid;place-items:center;font-weight:800;font-size:18px;
+}
+.flow-step.is-cta .flow-num{background:var(--blue);color:#fff}
+.flow-body{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px 24px;flex:1;box-shadow:var(--shadow)}
+.flow-body h3{font-size:17px;font-weight:800;color:var(--ink)}
+.flow-body p{margin-top:6px;font-size:14px;color:var(--muted)}
+
+/* ============ 料金 ============ */
+.pricing-grid{display:grid;gap:20px;grid-template-columns:1fr}
+@media(min-width:640px){.pricing-grid{grid-template-columns:1fr 1fr}}
+@media(min-width:1000px){.pricing-grid{grid-template-columns:repeat(4,1fr)}}
+.price-card{
+  background:#fff;border:1px solid var(--line);border-radius:18px;
+  padding:30px 24px;display:flex;flex-direction:column;text-align:center;
+  transition:transform .25s var(--ease),box-shadow .25s var(--ease),border-color .25s;
+}
+.price-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+.price-card.featured{border:2px solid var(--accent);box-shadow:var(--shadow-lg);position:relative}
+.price-card.featured::after{
+  content:"まずはここから";position:absolute;top:-13px;left:50%;transform:translateX(-50%);
+  background:var(--accent);color:#fff;font-size:11.5px;font-weight:700;letter-spacing:.05em;
+  padding:5px 14px;border-radius:999px;white-space:nowrap;
+}
+.price-card .p-ic{
+  width:52px;height:52px;border-radius:13px;margin:0 auto 16px;
+  background:var(--blue-soft);display:grid;place-items:center;color:var(--blue);
+}
+.price-card h3{font-size:16px;font-weight:800;color:var(--ink);min-height:2.6em;display:flex;align-items:center;justify-content:center}
+.price-amount{margin:14px 0 4px;font-weight:900;color:var(--navy);font-feature-settings:"tnum";line-height:1}
+.price-amount .yen{font-size:18px;font-weight:800;margin-right:1px}
+.price-amount .val{font-size:34px}
+.price-amount .unit{font-size:14px;font-weight:700;color:var(--muted);margin-left:2px}
+.price-card .p-desc{font-size:13px;color:var(--muted);margin-top:12px;flex:1}
+.price-note{text-align:center;margin-top:26px;font-size:13px;color:var(--muted)}
+
+/* ============ FAQ ============ */
+.faq{background:var(--bg-alt)}
+.faq-list{max-width:760px;margin:0 auto;display:grid;gap:14px}
+.faq-item{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.faq-q{
+  width:100%;display:flex;align-items:center;gap:14px;text-align:left;
+  background:none;border:none;cursor:pointer;padding:22px 24px;
+  font-size:15.5px;font-weight:700;color:var(--ink);line-height:1.5;
+}
+.faq-q .q-mark{
+  width:28px;height:28px;border-radius:7px;background:var(--navy);color:#fff;
+  font-weight:800;font-size:14px;display:grid;place-items:center;flex:none;
+}
+.faq-q .chev{margin-left:auto;flex:none;transition:transform .3s var(--ease);color:var(--blue)}
+.faq-item.open .chev{transform:rotate(180deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .35s var(--ease)}
+.faq-a-inner{padding:0 24px 22px 66px;font-size:14.5px;color:var(--text)}
+
+/* ============ 最終CTA ============ */
+.final-cta{
+  background:
+    radial-gradient(700px 320px at 100% 0%,rgba(47,128,237,.28),transparent 60%),
+    linear-gradient(135deg,var(--navy),var(--navy-2));
+  color:#fff;text-align:center;
+}
+.final-cta h2{font-size:clamp(24px,4.6vw,34px);font-weight:900;line-height:1.45}
+.final-cta p{margin:20px auto 0;max-width:560px;color:#cddcf0;font-size:15.5px}
+.final-cta .btn{margin-top:34px}
+.final-cta .reassure{margin-top:20px;display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:center;font-size:13px;color:#aac4e4}
+.final-cta .reassure span{display:flex;align-items:center;gap:7px}
+
+/* ============ フッター ============ */
+.site-footer{background:#081b34;color:#9fb3cc;padding:48px 0 36px;font-size:13.5px}
+.footer-top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px;align-items:flex-start}
+.footer-brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:800;font-size:17px}
+.footer-brand .logo-mark{width:32px;height:32px;border-radius:8px;background:var(--accent);display:grid;place-items:center;font-size:16px}
+.footer-desc{margin-top:14px;max-width:420px;color:#8ba3c2;line-height:1.7}
+.footer-links{display:flex;flex-direction:column;gap:10px}
+.footer-links a{color:#9fb3cc;transition:color .2s}
+.footer-links a:hover{color:#fff}
+.footer-bottom{margin-top:34px;padding-top:22px;border-top:1px solid rgba(255,255,255,.08);text-align:center;color:#70869f;font-size:12.5px}
+
+/* ============ モバイル固定CTA ============ */
+.mobile-cta{
+  position:fixed;left:0;right:0;bottom:0;z-index:60;
+  padding:12px 16px calc(12px + env(safe-area-inset-bottom));
+  background:rgba(255,255,255,.96);backdrop-filter:blur(8px);
+  border-top:1px solid var(--line);
+  transform:translateY(120%);transition:transform .35s var(--ease);
+}
+.mobile-cta.show{transform:translateY(0)}
+.mobile-cta .btn{padding:15px}
+@media(min-width:768px){.mobile-cta{display:none}}
+body{padding-bottom:0}
+
+/* ============ アニメーション（控えめ） ============ */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s var(--ease),transform .6s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto!important}
+  .reveal{opacity:1!important;transform:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+
+<!-- ====================== ヘッダー ====================== -->
+<header class="site-header" id="header">
+  <div class="container header-inner">
+    <a href="#" class="brand" aria-label="飲食スポットlab. トップへ">
+      <span class="logo-mark">L</span>
+      飲食スポット<span style="color:var(--blue)">lab.</span>
+    </a>
+    <div class="header-cta">
+      <a class="btn btn-primary js-cta" href="#" rel="noopener">無料Zoom相談を予約</a>
+    </div>
+  </div>
+</header>
+
+<!-- ====================== ヒーロー ====================== -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text reveal">
+      <span class="hero-tag">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 6.6L21 9l-5 4.3L17.6 21 12 17.3 6.4 21 8 13.3 3 9l6.6-.4z"/></svg>
+        飲食店専門・スポットワーカー受入診断
+      </span>
+      <h1>スポットワーカーから<br><span class="hl">選ばれる店</span>には、<br>理由があります。</h1>
+      <p class="hero-sub">250回以上の現場経験から、募集内容・受入体制・採用導線を診断します。「働く側」と「店長」両方のリアルを知る視点で、改善の方向性をご提案します。</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary js-cta" href="#" rel="noopener">
+          無料Zoom相談を予約する
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="btn btn-ghost" href="#service">診断サービスを見る</a>
+      </div>
+      <p class="hero-note">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1d6fb8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        相談は30分・オンライン・全国対応／無理な勧誘はありません
+      </p>
+    </div>
+
+    <aside class="hero-card reveal" aria-label="実績数値">
+      <div class="card-label">EXPERIENCE IN NUMBERS</div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="num">250<small>回+</small></div>
+          <div class="desc">スポットワーカーとしての<br>現場勤務経験</div>
+        </div>
+        <div class="stat">
+          <div class="num">15<small>年</small></div>
+          <div class="desc">飲食店（カフェチェーン）<br>店長としての運営経験</div>
+        </div>
+        <div class="stat">
+          <div class="num">2<small>つの視点</small></div>
+          <div class="desc">「働く側」と「店側」<br>両方を知る診断</div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ====================== 信頼バー ====================== -->
+<div class="trustbar">
+  <div class="container">
+    <span class="trust-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/></svg>プラチナワーカーの実体験</span>
+    <span class="trust-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V8l9-5 9 5v13"/><path d="M9 21v-6h6v6"/></svg>飲食店運営の現場知見</span>
+    <span class="trust-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>データに基づく改善提案</span>
+  </div>
+</div>
+
+<!-- ====================== 課題提起 ====================== -->
+<section class="problems" id="problems">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Issues</span>
+      <h2 class="section-title">こんな採用・受入の悩み、<br>抱えていませんか？</h2>
+      <p class="section-lead">スポットワーカーの活用には、「店側からは見えにくい」つまずきポイントがあります。</p>
+    </div>
+    <div class="problem-grid">
+      <div class="problem-card reveal">
+        <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg></span>
+        <div><h3>応募が集まらない</h3><p>募集を出しても反応が薄く、人が確保できない。</p></div>
+      </div>
+      <div class="problem-card reveal">
+        <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a4 4 0 014-4h14"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg></span>
+        <div><h3>リピーターが増えない</h3><p>一度きりで終わり、また同じ募集の繰り返し。</p></div>
+      </div>
+      <div class="problem-card reveal">
+        <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/><path d="M9 14l6 6M15 14l-6 6"/></svg></span>
+        <div><h3>当日キャンセルが多い</h3><p>シフト直前のドタキャンで現場が回らない。</p></div>
+      </div>
+      <div class="problem-card reveal">
+        <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v12H8l-4 4z"/><path d="M9 9h6M9 12h4"/></svg></span>
+        <div><h3>募集文に自信がない</h3><p>何をどう書けば伝わるのか、正解が分からない。</p></div>
+      </div>
+      <div class="problem-card reveal">
+        <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M9.5 9a2.5 2.5 0 015 .2c0 1.8-2.5 2.3-2.5 4M12 17h.01"/></svg></span>
+        <div><h3>受入体制が正しいか<br>わからない</h3><p>マニュアルや初日対応、これで合っているのか不安。</p></div>
+      </div>
+      <div class="problem-card reveal" style="background:var(--navy);border-color:var(--navy)">
+        <span class="ic" style="background:rgba(255,255,255,.12);color:#8fc0f0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4M12 2a7 7 0 00-4 12.7c.6.5 1 1.3 1 2.1V17h6v-.2c0-.8.4-1.6 1-2.1A7 7 0 0012 2z"/></svg></span>
+        <div><h3 style="color:#fff">ひとつでも当てはまるなら</h3><p style="color:#bcd2ec">原因は「人」ではなく、<strong style="color:#fff">仕組み</strong>にあるかもしれません。</p></div>
+      </div>
+    </div>
+    <p class="problem-bridge reveal">その課題、<span class="hl">「働く側」と「店側」両方を知る視点</span>で、<br>原因を一緒に整理しませんか。</p>
+  </div>
+</section>
+
+<!-- ====================== サービス紹介 ====================== -->
+<section id="service">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Service</span>
+      <h2 class="section-title">提供サービス</h2>
+    </div>
+    <div class="service-wrap reveal">
+      <span class="eyebrow">Diagnosis Program</span>
+      <div class="service-name">スポットワーカー受入診断</div>
+      <p class="service-desc">現役のスポットワーカー視点と元店長視点の両面から、貴店の募集〜受入の流れを客観的に診断。具体的な改善ポイントをレポートとしてお渡しします。</p>
+      <div class="service-items">
+        <div class="service-item"><span class="num">1</span><span>求人票診断</span></div>
+        <div class="service-item"><span class="num">2</span><span>募集導線診断</span></div>
+        <div class="service-item"><span class="num">3</span><span>受入体制診断</span></div>
+        <div class="service-item"><span class="num">4</span><span>改善提案レポート</span></div>
+        <div class="service-item" style="grid-column:1/-1"><span class="num">5</span><span>Zoom相談（オンライン・全国対応）</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 強み ====================== -->
+<section id="strength">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Why Us</span>
+      <h2 class="section-title">3つの視点で診断できる<br>唯一無二のポジション</h2>
+      <p class="section-lead">「働く側」「店側」「分析」——立場の異なる3つの目で課題を立体的に捉えます。</p>
+    </div>
+    <div class="strength-grid">
+      <div class="strength-card reveal">
+        <span class="badge">1</span>
+        <div class="ic"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg></div>
+        <h3>ワーカー視点</h3>
+        <div class="role">WORKER'S EYE</div>
+        <p>250回以上の勤務経験。応募したくなる募集文、また行きたくなる店の条件を、働く側のリアルとして熟知しています。</p>
+      </div>
+      <div class="strength-card reveal">
+        <span class="badge">2</span>
+        <div class="ic"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V8l9-5 9 5v13"/><path d="M9 21v-6h6v6"/></svg></div>
+        <h3>店長視点</h3>
+        <div class="role">MANAGER'S EYE</div>
+        <p>飲食店の店長として現場を運営してきた経験。オペレーションとコストを踏まえた、実行可能な改善を提案します。</p>
+      </div>
+      <div class="strength-card reveal">
+        <span class="badge">3</span>
+        <div class="ic"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></div>
+        <h3>分析視点</h3>
+        <div class="role">ANALYST'S EYE</div>
+        <p>データ分析・レポーティングの経験から、感覚ではなく根拠に基づき課題を可視化。改善の優先順位を明確にします。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 流れ ====================== -->
+<section class="flow" id="flow">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Flow</span>
+      <h2 class="section-title">ご相談から改善までの流れ</h2>
+      <p class="section-lead">まずは無料相談から。お申し込み後、最短でその場で課題を整理します。</p>
+    </div>
+    <div class="flow-list">
+      <div class="flow-step is-cta reveal">
+        <div class="flow-num">1</div>
+        <div class="flow-body"><h3>無料相談申込</h3><p>フォームから希望日時を送信。費用は一切かかりません。</p></div>
+      </div>
+      <div class="flow-step reveal">
+        <div class="flow-num">2</div>
+        <div class="flow-body"><h3>ヒアリング</h3><p>Zoomで現在の募集状況・お困りごとを30分でお聞きします。</p></div>
+      </div>
+      <div class="flow-step reveal">
+        <div class="flow-num">3</div>
+        <div class="flow-body"><h3>現状分析</h3><p>求人票・募集導線・受入体制を3つの視点で診断します。</p></div>
+      </div>
+      <div class="flow-step reveal">
+        <div class="flow-num">4</div>
+        <div class="flow-body"><h3>改善提案</h3><p>優先順位をつけた改善ポイントをレポートでご提示します。</p></div>
+      </div>
+      <div class="flow-step reveal">
+        <div class="flow-num">5</div>
+        <div class="flow-body"><h3>フォローアップ</h3><p>施策実施後の効果確認と、次の一手をご一緒に検討します。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 料金 ======================
+     価格・項目の編集はこの <section> 内のテキストを直接書き換えてください。
+     金額は <span class="val"> 内の数字を変更すればOKです。
+-->
+<section id="pricing">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Pricing</span>
+      <h2 class="section-title">料金のご案内</h2>
+      <p class="section-lead">必要なものから、無理なく始められる料金設定です。</p>
+    </div>
+    <div class="pricing-grid">
+
+      <!-- 料金カード：無料相談 -->
+      <div class="price-card featured reveal">
+        <div class="p-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+        <h3>無料Zoom相談</h3>
+        <div class="price-amount"><span class="yen">¥</span><span class="val">0</span></div>
+        <p class="p-desc">まずは現状と課題をヒアリング。改善の方向性をご提案します。</p>
+      </div>
+
+      <!-- 料金カード：求人票診断 -->
+      <div class="price-card reveal">
+        <div class="p-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h4"/></svg></div>
+        <h3>求人票診断</h3>
+        <div class="price-amount"><span class="yen">¥</span><span class="val">5,000</span></div>
+        <p class="p-desc">募集文・条件を診断し、応募が集まる改善ポイントを指摘します。</p>
+      </div>
+
+      <!-- 料金カード：店舗改善レポート -->
+      <div class="price-card reveal">
+        <div class="p-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="11" width="3" height="6"/><rect x="13" y="7" width="3" height="10"/></svg></div>
+        <h3>店舗改善レポート</h3>
+        <div class="price-amount"><span class="yen">¥</span><span class="val">15,000</span></div>
+        <p class="p-desc">募集〜受入体制まで総合診断。改善提案をレポートにまとめます。</p>
+      </div>
+
+      <!-- 料金カード：報告会付き改善提案 -->
+      <div class="price-card reveal">
+        <div class="p-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+        <h3>報告会付き改善提案</h3>
+        <div class="price-amount"><span class="yen">¥</span><span class="val">30,000</span></div>
+        <p class="p-desc">レポートに加え、報告会で改善内容を丁寧にご説明します。</p>
+      </div>
+
+    </div>
+    <p class="price-note">※表示はすべて税込・目安です。店舗状況に応じて最適なプランをご提案します。</p>
+  </div>
+</section>
+
+<!-- ====================== FAQ ====================== -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">FAQ</span>
+      <h2 class="section-title">よくあるご質問</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">
+          <span class="q-mark">Q</span>
+          <span>タイミーの運用代行ですか？</span>
+          <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner">いいえ。運用代行は行いません。募集内容・受入体制・採用導線を客観的に診断し、改善提案を行うサービスです。実行の主役はあくまで店舗の皆さまです。</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">
+          <span class="q-mark">Q</span>
+          <span>飲食店以外でも依頼できますか？</span>
+          <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner">原則として飲食店向けのサービスです。業態が近い場合などはお力になれることもありますので、まずは無料相談でお気軽にご相談ください。</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">
+          <span class="q-mark">Q</span>
+          <span>オンライン対応は可能ですか？</span>
+          <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner">はい。Zoomを利用し全国対応が可能です。遠方の店舗さまも問題なくご利用いただけます。</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 最終CTA ====================== -->
+<section class="final-cta" id="contact">
+  <div class="container reveal">
+    <h2>まずは30分の<br>無料相談から</h2>
+    <p>現在の募集状況や課題をお聞かせください。改善の方向性をご提案します。無理な勧誘は一切ありません。</p>
+    <a class="btn btn-primary js-cta" href="#" rel="noopener">
+      無料Zoom相談を予約する
+      <span class="arrow" aria-hidden="true">→</span>
+    </a>
+    <div class="reassure">
+      <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#7eb6ec" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>相談料0円</span>
+      <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#7eb6ec" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>オンライン・全国対応</span>
+      <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#7eb6ec" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>しつこい営業なし</span>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== フッター ====================== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand"><span class="logo-mark">L</span>飲食スポットlab.</div>
+        <p class="footer-desc">飲食×スポットワークの「信頼流通網」をつくる。働く側と店側、両方のリアルを知る視点で、飲食店の採用・受入を診断・改善します。</p>
+      </div>
+      <nav class="footer-links" aria-label="フッターナビ">
+        <a href="#problems">課題</a>
+        <a href="#service">サービス</a>
+        <a href="#strength">強み</a>
+        <a href="#pricing">料金</a>
+        <a href="#faq">よくある質問</a>
+        <a href="#contact" class="js-cta">無料Zoom相談</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">© <span id="year"></span> 飲食スポットlab. All rights reserved.</div>
+  </div>
+</footer>
+
+<!-- ====================== モバイル固定CTA ====================== -->
+<div class="mobile-cta" id="mobileCta">
+  <a class="btn btn-primary btn-block js-cta" href="#" rel="noopener">無料Zoom相談を予約する</a>
+</div>
+
+<script>
+/* ============================================================
+   ▼▼▼ 予約フォームURLはここだけ書き換えてください ▼▼▼
+   Googleフォーム等の予約ページURLを設定します。
+   ============================================================ */
+var YOUR_GOOGLE_FORM_URL = "YOUR_GOOGLE_FORM_URL";
+
+(function(){
+  "use strict";
+
+  // CTAボタンにフォームURLを反映
+  var url = YOUR_GOOGLE_FORM_URL;
+  var ctas = document.querySelectorAll(".js-cta");
+  ctas.forEach(function(a){
+    // 内部アンカー(#contact)を持つフッターリンク以外はフォームへ
+    if(a.getAttribute("href") === "#contact"){ return; }
+    if(url && url !== "YOUR_GOOGLE_FORM_URL"){
+      a.href = url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+    } else {
+      // URL未設定時は最終CTAへスクロール（リンク切れ防止）
+      a.href = "#contact";
+    }
+  });
+
+  // 西暦自動表示
+  var y = document.getElementById("year");
+  if(y){ y.textContent = new Date().getFullYear(); }
+
+  // ヘッダー：スクロールで影
+  var header = document.getElementById("header");
+  var mobileCta = document.getElementById("mobileCta");
+  var onScroll = function(){
+    var sc = window.pageYOffset || document.documentElement.scrollTop;
+    header.classList.toggle("scrolled", sc > 8);
+    // モバイル固定CTAは少しスクロールしたら表示、フッター手前で考慮不要
+    if(mobileCta){ mobileCta.classList.toggle("show", sc > 480); }
+  };
+  window.addEventListener("scroll", onScroll, {passive:true});
+  onScroll();
+
+  // FAQアコーディオン
+  document.querySelectorAll(".faq-q").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var item = btn.closest(".faq-item");
+      var ans = item.querySelector(".faq-a");
+      var open = item.classList.toggle("open");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      ans.style.maxHeight = open ? (ans.scrollHeight + "px") : "0";
+    });
+  });
+
+  // スクロールリベール（控えめ）
+  if("IntersectionObserver" in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); }
+      });
+    }, {threshold:.12, rootMargin:"0px 0px -40px 0px"});
+    document.querySelectorAll(".reveal").forEach(function(el){ io.observe(el); });
+  } else {
+    document.querySelectorAll(".reveal").forEach(function(el){ el.classList.add("in"); });
+  }
+})();
+</script>
+</body>
+</html>
